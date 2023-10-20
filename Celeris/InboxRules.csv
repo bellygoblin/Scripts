@@ -1,0 +1,594 @@
+#TYPE Selected.System.Management.Automation.PSCustomObject
+"Description","Enabled","Identity","InError","ErrorType","Name","Priority","RuleIdentity","SupportedByTask","Legacy","BodyContainsWords","ExceptIfBodyContainsWords","FlaggedForAction","ExceptIfFlaggedForAction","FromAddressContainsWords","ExceptIfFromAddressContainsWords","From","ExceptIfFrom","HasAttachment","ExceptIfHasAttachment","HasClassification","ExceptIfHasClassification","HeaderContainsWords","ExceptIfHeaderContainsWords","MessageTypeMatches","ExceptIfMessageTypeMatches","MyNameInCcBox","ExceptIfMyNameInCcBox","MyNameInToBox","ExceptIfMyNameInToBox","MyNameInToOrCcBox","ExceptIfMyNameInToOrCcBox","MyNameNotInToBox","ExceptIfMyNameNotInToBox","ReceivedAfterDate","ExceptIfReceivedAfterDate","ReceivedBeforeDate","ExceptIfReceivedBeforeDate","RecipientAddressContainsWords","ExceptIfRecipientAddressContainsWords","SentOnlyToMe","ExceptIfSentOnlyToMe","SentTo","ExceptIfSentTo","SubjectContainsWords","ExceptIfSubjectContainsWords","SubjectOrBodyContainsWords","ExceptIfSubjectOrBodyContainsWords","WithImportance","ExceptIfWithImportance","WithinSizeRangeMaximum","ExceptIfWithinSizeRangeMaximum","WithinSizeRangeMinimum","ExceptIfWithinSizeRangeMinimum","WithSensitivity","ExceptIfWithSensitivity","ApplyCategory","ApplySystemCategory","CopyToFolder","DeleteMessage","DeleteSystemCategory","ForwardAsAttachmentTo","ForwardTo","MarkAsRead","MarkImportance","MoveToFolder","PinMessage","RedirectTo","SendTextMessageNotificationTo","SoftDeleteMessage","StopProcessingRules","MailboxOwnerId","IsValid","ObjectState"
+"If the message:
+	the message was received from 'system@sent-via.netsuite.com'
+	and the message was sent to 'Stephanie Romines'
+	and the message includes specific words in the subject 'Alert: Customer Search - Duplicates (Record Modified)'
+Take the following actions:
+	move the message to folder 'Duplicates'
+	and stop processing more rules on this message
+","True","Stephanie Romines\5299758226181455873","False","None","Move messages from Tony West (twest@christmasplace.com)","1","5299758226181455873","True",,"","",,,"","","""system@sent-via.netsuite.com"" [SMTP:system@sent-via.netsuite.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""Stephanie Romines"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b51f3300fb084b2dae3b185df4a8d9f7-Stephanier]",,"Alert: Customer Search - Duplicates (Record Modified)","","","",,,,,,,,,"","",,"False","",,,"False",,"Duplicates","False",,"","False","True","Stephanie Romines","True","Unchanged"
+"If the message:
+	the message was received from 'system@sent-via.netsuite.com'
+	and the message was sent to 'Stephanie Romines'
+	and the message includes specific words in the subject 'Alert: Customer Search - Duplicates (Record Created)'
+Take the following actions:
+	move the message to folder 'Duplicates'
+	and stop processing more rules on this message
+","True","Stephanie Romines\5371815820219383809","False","None","Move messages from Tony West (twest@christmasplace.com)","2","5371815820219383809","True",,"","",,,"","","""system@sent-via.netsuite.com"" [SMTP:system@sent-via.netsuite.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""Stephanie Romines"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b51f3300fb084b2dae3b185df4a8d9f7-Stephanier]",,"Alert: Customer Search - Duplicates (Record Created)","","","",,,,,,,,,"","",,"False","",,,"False",,"Duplicates","False",,"","False","True","Stephanie Romines","True","Unchanged"
+"If the message:
+	the message was received from 'Kristen Jackson (kristen@christmasplace.com)'
+	and the message includes specific words in the subject 'PO Approved'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+","True","Karen Heath\4959678253263486977","False","None","Kristen Jackson (kristen@christmasplace.com) (2)","1","4959678253263486977","True",,"","",,,"","","""Kristen Jackson (kristen@christmasplace.com)"" [SMTP:system@sent-via.netsuite.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"PO Approved","","","",,,,,,,,,"","",,"False","",,,"False",,"Inbox","False",,"","False","True","Karen Heath","True","Unchanged"
+"If the message:
+	the message was received from 'Kristen Jackson (kristen@christmasplace.com)'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+","True","Karen Heath\4887620659225559041","False","None","Kristen Jackson (kristen@christmasplace.com) (1)","2","4887620659225559041","True",,"","",,,"","","""Kristen Jackson (kristen@christmasplace.com)"" [SMTP:system@sent-via.netsuite.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Inbox","False",,"","False","True","Karen Heath","True","Unchanged"
+"If the message:
+	the message was received from 'Kristen Jackson (kristen@christmasplace.com)'
+Take the following actions:
+	move the message to folder 'Inbox'
+	and stop processing more rules on this message
+","True","Karen Heath\4671447877111775233","False","None","Kristen Jackson (kristen@christmasplace.com)","3","4671447877111775233","True",,"","",,,"","","""Kristen Jackson (kristen@christmasplace.com)"" [SMTP:system@sent-via.netsuite.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Inbox","False",,"","False","True","Karen Heath","True","Unchanged"
+"If the message:
+	the message includes specific words in the subject 'New order from Lebanon Wine & Spirits Website'
+Take the following actions:
+	move the message to folder 'LWS Orders'
+	and stop processing more rules on this message
+","True","Robbie Watson\14163796827870068737","False","None","New order from Lebanon Wine & Spirits Website","1","14163796827870068737","True",,"","",,,"","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"New order from Lebanon Wine & Spirits Website","","","",,,,,,,,,"","",,"False","",,,"False",,"LWS Orders","False",,"","False","True","Robbie Watson","True","Unchanged"
+"If the message:
+	the message was received from 'Microsoft Teams'
+Take the following actions:
+	move the message to folder 'Archive'
+	and stop processing more rules on this message
+","True","Robbie Watson\14235854421907996673","False","None","Microsoft Teams","2","14235854421907996673","True",,"","",,,"","","""Microsoft Teams"" [SMTP:noreply@email.teams.microsoft.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Archive","False",,"","False","True","Robbie Watson","True","Unchanged"
+"If the message:
+	the message was received from 'Formsite'
+	and the message was sent to 'Jennifer Williams'
+	and the message includes specific words in the subject 'Christmas Place Wholesaler Inquiry'
+Take the following actions:
+	forward the message to 'Ginger Lucas'
+	and move the message to folder 'Wholesale'
+	and stop processing more rules on this message
+","True","Jennifer Williams\14105911796980252673","False","None","Wholesale Website Form","1","14105911796980252673","True",,"","",,,"","","""Formsite"" [SMTP:form_engine@fs16.formsite.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""Jennifer Williams"" [SMTP:jennifer@christmasplace.com]",,"Christmas Place Wholesaler Inquiry","","","",,,,,,,,,"","",,"False","",,"""Ginger Lucas"" [SMTP:Ginger@christmasplace.com]","False",,"Wholesale","False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the body of the message contains the words 'record has been changed'
+	and the message was received from 'system@sent-via.netsuite.com'
+	and the message was sent to 'Jennifer Williams'
+	and the message includes specific words in the subject 'Workflow Failure : Automate Billing of Sales Orders'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","Jennifer Williams\14177969391018180609","False","None","Delete messages from NetSuite Alerts (automailer@netsuite.com)","2","14177969391018180609","True",,"record has been changed","",,,"","","""system@sent-via.netsuite.com"" [SMTP:system@sent-via.netsuite.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""Jennifer Williams"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cb5df7c03f364d1ead9ee11160bcefcb-Jennifer]",,"Workflow Failure : Automate Billing of Sales Orders","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message includes specific words in the subject 'Sumo Contact Form'
+Take the following actions:
+	forward the message to 'Santa'
+	and move the message to folder 'Contact Form'
+","True","Jennifer Williams\14250026985056108545","False","None","Sumo Contact Form","3","14250026985056108545","True",,"","",,,"","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Sumo Contact Form","","","",,,,,,,,,"","",,"False","",,"""Santa"" [EX:/CN=Mail Public Folder/CN=Version_1_0/CN=36c81aef-3da3-4153-a561-59378fd2715f/CN=000000001A447390AA6611CD9BC800AA002FC45A0300C106C3FC8811164DA51A3EC6172A56790000000000160000]","False",,"Contact Form","False",,"","False","False","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was sent to 'Jennifer Williams'
+	and the message includes specific words in the subject 'Christmas Place Wholesaler Inquiry Form'
+Take the following actions:
+	forward the message to 'Ginger Lucas'
+	and move the message to folder 'Wholesale'
+	and stop processing more rules on this message
+","False","Jennifer Williams\14322084579094036481","False","None","Wholesaler Inquiry Form","4","14322084579094036481","True",,"","",,,"","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""Jennifer Williams"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cb5df7c03f364d1ead9ee11160bcefcb-Jennifer]",,"Christmas Place Wholesaler Inquiry Form","","","",,,,,,,,,"","",,"False","",,"""Ginger Lucas"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=00e734c39fe34493970b35bd81f978a6-Ginger]","False",,"Wholesale","False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'Amazon Services'
+	and the message was sent only to me.
+	and the message includes specific words in the subject 'Your payment is on the way'
+Take the following actions:
+	forward the message to 'Robbie Watson'
+","True","Jennifer Williams\14394142173131964417","False","None","Amazon Payment -Accounting","5","14394142173131964417","True",,"","",,,"","","""Amazon Services"" [SMTP:seller-notification@amazon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","True","False",,,"Your payment is on the way","","","",,,,,,,,,"","",,"False","",,"""Robbie Watson"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=efca9dccfffd4bf691ca35a2a51ae3c5-Robbie]","False",,,"False",,"","False","False","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'Creditcall WebMIS'
+	and the message includes specific words in the subject 'Creditcall WebMIS Report Complete'
+Take the following actions:
+	delete the message
+	and forward the message to 'Robbie Watson'
+	and stop processing more rules on this message
+","True","Jennifer Williams\14466199767169892353","False","None","Creditcall WebMIS","6","14466199767169892353","True",,"","",,,"","","""Creditcall WebMIS"" [SMTP:noreply@creditcall.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Creditcall WebMIS Report Complete","","","",,,,,,,,,"","",,"True","",,"""Robbie Watson"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=Robbie]","False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'shopatron@christmasplace.com'
+	and the message was sent to 'Shawn Arnold'
+	and the message includes specific words in the subject 'Ready Order Processing ERROR'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","Jennifer Williams\14538257361207820289","False","None","shopatron@christmasplace.com","7","14538257361207820289","True",,"","",,,"","","""shopatron@christmasplace.com"" [SMTP:shopatron@christmasplace.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False","""Shawn Arnold"" [EX:/O=CHRISTMASPLACE/OU=FIRST ADMINISTRATIVE GROUP/CN=RECIPIENTS/CN=SHAWN]",,"Ready Order Processing ERROR","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'auction.messages@channeladvisor.com'
+	and the message includes specific words in the subject 'Auction checkout report ready'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","Jennifer Williams\14610314955245748225","False","None","auction.messages@channeladvisor.com","8","14610314955245748225","True",,"","",,,"","","""auction.messages@channeladvisor.com"" [SMTP:auction.messages@channeladvisor.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Auction checkout report ready","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message includes specific words in the subject 'Instant payment received from '
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","Jennifer Williams\14682372549283676161","False","None","Instant payment received from ","9","14682372549283676161","True",,"","",,,"","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Instant payment received from ","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'eBay'
+	and the message includes specific words in the subject 'You successfully canceled your listing:'
+","True","Jennifer Williams\14754430143321604097","False","None","eBay","10","14754430143321604097","False",,"","",,,"","","""eBay"" [SMTP:ebay@ebay.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"You successfully canceled your listing:","","","",,,,,,,,,"","",,"False","",,,"False",,,"False",,"","False","False","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message includes specific words in the subject 'Your eBay item sold'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","Jennifer Williams\14826487737359532033","False","None","Your eBay item sold","11","14826487737359532033","True",,"","",,,"","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Your eBay item sold","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'Seller Notification'
+	and the message includes specific words in the subject 'Sold, ship now: '
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","Jennifer Williams\14898545331397459969","False","None","Seller Notification (1)","12","14898545331397459969","True",,"","",,,"","","""Seller Notification"" [SMTP:seller-notification@amazon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Sold, ship now: ","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'eBay'
+	and the message includes specific words in the subject 'Relist'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","Jennifer Williams\14970602925435387905","False","None","eBay Relist","13","14970602925435387905","True",,"","",,,"","","""eBay"" [SMTP:ebay@ebay.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Relist","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'eBay'
+	and the message includes specific words in the subject 'Your eBay listing is confirmed:'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","Jennifer Williams\15042660519473315841","False","None","eBay Confirmed Item","14","15042660519473315841","True",,"","",,,"","","""eBay"" [SMTP:ebay@ebay.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Your eBay listing is confirmed:","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'eBay'
+	and the message includes specific words in the subject 'Your eBay item sold'
+Take the following actions:
+	forward the message to 'Ginger Lucas' and 'Stephanie Romines' and 'Terri' and 'Shannon Goodwin'
+","True","Jennifer Williams\15114718113511243777","False","None","eBay Sale","15","15114718113511243777","True",,"","",,,"","","""eBay"" [SMTP:ebay@ebay.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Your eBay item sold","","","",,,,,,,,,"","",,"False","",,"""Ginger Lucas"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=00e734c39fe34493970b35bd81f978a6-Ginger] ""Stephanie Romines"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b51f3300fb084b2dae3b185df4a8d9f7-Stephanier] ""Terri"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=298bcf09b7d74b6fa519bd2c98a537e6-Terri] ""Shannon Goodwin"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=709732f19ac34e3694337342372bbddc-Shannon]","False",,,"False",,"","False","False","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from '""Amazon Answers""'
+	and the message includes specific words in the subject 'Can you answer this question'
+Take the following actions:
+	forward the message to 'Ginger Lucas (Ginger@christmasplace.com)' and 'Stephanie Romines'
+","True","Jennifer Williams\15186775707549171713","False","None","""Amazon Answers""","16","15186775707549171713","True",,"","",,,"","","""""Amazon Answers"""" [SMTP:seller-answers@amazon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Can you answer this question","","","",,,,,,,,,"","",,"False","",,"""Ginger Lucas (Ginger@christmasplace.com)"" [SMTP:GINGER@CHRISTMASPLACE.COM] ""Stephanie Romines"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b51f3300fb084b2dae3b185df4a8d9f7-Stephanier]","False",,,"False",,"","False","False","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'abandonedCart@christmasplace.com'
+	and the message includes specific words in the subject 'Processed Abandoned Carts'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","Jennifer Williams\15258833301587099649","False","None","abandonedCart@christmasplace.com","17","15258833301587099649","True",,"","",,,"","","""abandonedCart@christmasplace.com"" [SMTP:abandonedCart@christmasplace.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Processed Abandoned Carts","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'Shopatron Retailer Support'
+	and the message includes specific words in the subject 'is ready to fulfill'
+Take the following actions:
+	forward the message to 'Ginger Lucas' and 'Stephanie Romines'
+","True","Jennifer Williams\15330890895625027585","False","None","Shopatron Retailer Support","18","15330890895625027585","True",,"","",,,"","","""Shopatron Retailer Support"" [SMTP:retailer@shopatron.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"is ready to fulfill","","","",,,,,,,,,"","",,"False","",,"""Ginger Lucas"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=Ginger] ""Stephanie Romines"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=stephanier]","False",,,"False",,"","False","False","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'Seller Notification'
+	and the message includes specific words in the subject 'Sold'
+Take the following actions:
+	forward the message to 'Ginger Lucas' and 'Shannon Goodwin' and 'Stephanie Romines' and 'Terri'
+","True","Jennifer Williams\15402948489662955521","False","None","Seller Notification","19","15402948489662955521","True",,"","",,,"","","""Seller Notification"" [SMTP:seller-notification@amazon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Sold","","","",,,,,,,,,"","",,"False","",,"""Ginger Lucas"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=00e734c39fe34493970b35bd81f978a6-Ginger] ""Shannon Goodwin"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=709732f19ac34e3694337342372bbddc-Shannon] ""Stephanie Romines"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=b51f3300fb084b2dae3b185df4a8d9f7-Stephanier] ""Terri"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=298bcf09b7d74b6fa519bd2c98a537e6-Terri]","False",,,"False",,"","False","False","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message includes specific words in the subject 'Christmasplace.com order confirmation'
+","True","Jennifer Williams\15475006083700883457","False","None","Christmasplace.com order confirmation","20","15475006083700883457","False",,"","",,,"","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Christmasplace.com order confirmation","","","",,,,,,,,,"","",,"False","",,,"False",,,"False",,"","False","False","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'shopatron@christmasplace.com'
+	and the message includes specific words in the subject 'Ready Orders Received'
+Take the following actions:
+	delete the message
+	and forward the message to 'Ginger Lucas' and 'Stephanie Romines'
+	and stop processing more rules on this message
+","True","Jennifer Williams\15547063677738811393","False","None","shopatron@christmasplace.com (ready orders)","21","15547063677738811393","True",,"","",,,"","","""shopatron@christmasplace.com"" [SMTP:shopatron@christmasplace.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Ready Orders Received","","","",,,,,,,,,"","",,"True","",,"""Ginger Lucas"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=Ginger] ""Stephanie Romines"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=stephanier]","False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message includes specific words in the subject 'Your Batch Capture Was Successful'
+Take the following actions:
+	delete the message
+	and stop processing more rules on this message
+","True","Jennifer Williams\15619121271776739329","False","None","Your Batch Capture Was Successful","22","15619121271776739329","True",,"","",,,"","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Your Batch Capture Was Successful","","","",,,,,,,,,"","",,"True","",,,"False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message includes specific words in the subject 'Shopatron Close Order'
+Take the following actions:
+	forward the message to 'Ginger Lucas' and 'Stephanie Romines'
+","True","Jennifer Williams\15691178865814667265","False","None","Shopatron Close Order","23","15691178865814667265","True",,"","",,,"","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"Shopatron Close Order","","","",,,,,,,,,"","",,"False","",,"""Ginger Lucas"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=Ginger] ""Stephanie Romines"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=stephanier]","False",,,"False",,"","False","False","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'productads-noreply@amazon.com'
+	and the message includes specific words in the subject or body 'Product Ads'
+Take the following actions:
+	forward the message to 'Shawn Arnold'
+","True","Jennifer Williams\15763236459852595201","False","None","Amazon Product Ads","24","15763236459852595201","True",,"","",,,"","","""productads-noreply@amazon.com"" [SMTP:productads-noreply@amazon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","Product Ads","",,,,,,,,,"","",,"False","",,"""Shawn Arnold"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=Shawn]","False",,,"False",,"","False","False","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'service@paypal.com'
+	and the message includes specific words in the subject 'just sent you a payment'
+Take the following actions:
+	delete the message
+	and redirect the message to 'Ginger Lucas' and 'Stephanie Romines'
+	and stop processing more rules on this message
+","True","Jennifer Williams\15835294053890523137","False","None","PayPal Pmt Rec'd","25","15835294053890523137","True",,"","",,,"","","""service@paypal.com"" [SMTP:service@paypal.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"just sent you a payment","","","",,,,,,,,,"","",,"True","",,,"False",,,"False","""Ginger Lucas"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=Ginger] ""Stephanie Romines"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=stephanier]","","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'service@paypal.com'
+	and the message includes specific words in the subject 'has just paid for your invoice'
+Take the following actions:
+	delete the message
+	and forward the message to 'Ginger Lucas' and 'Stephanie Romines'
+	and stop processing more rules on this message
+","True","Jennifer Williams\15907351647928451073","False","None","PayPal Invoice Paid","26","15907351647928451073","True",,"","",,,"","","""service@paypal.com"" [SMTP:service@paypal.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"has just paid for your invoice","","","",,,,,,,,,"","",,"True","",,"""Ginger Lucas"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=Ginger] ""Stephanie Romines"" [EX:/o=ChristmasPlace/ou=First Administrative Group/cn=Recipients/cn=stephanier]","False",,,"False",,"","False","True","Jennifer Williams","True","Unchanged"
+"If the message:
+	the message was received from 'Lebanon Wine & Spirits'
+Take the following actions:
+	move the message to folder 'LWS'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4688271835173748737","False","None","From ""Lebanon Wine & Spirits"" MoveTo ""LWS""","1","4688271835173748737","True",,"","",,,"","","""Lebanon Wine & Spirits"" [SMTP:do-not-reply@cityhive.net]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"LWS","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'MerchantServices@BusinessTrack.com'
+Take the following actions:
+	move the message to folder 'FiServe'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5691804846693285889","False","None","From ""MerchantServices@BusinessTrack.com"" MoveTo ""FiServe""","2","5691804846693285889","True",,"","",,,"","","""MerchantServices@BusinessTrack.com"" [SMTP:MerchantServices@BusinessTrack.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"FiServe","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message includes specific words in the subject or body 'Indeed'
+Take the following actions:
+	move the message to folder 'Indeed'
+	and stop processing more rules on this message
+","True","Bryon Ownby\12882704346541719553","False","None","For all messages from Tracy Leymeister","3","12882704346541719553","True",,"","",,,"","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","Indeed","",,,,,,,,,"","",,"False","",,,"False",,"Indeed","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'FLINT, ALEXANDER'
+Take the following actions:
+	move the message to folder 'First Horizons'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4262397884718120961","False","None","From ""FLINT, ALEXANDER"" MoveTo ""First Horizons""","4","4262397884718120961","True",,"","",,,"","","""FLINT, ALEXANDER"" [SMTP:AFLINT@firsthorizon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"First Horizons","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'REAGAN, CHAD A'
+Take the following actions:
+	move the message to folder 'First Horizons'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4334455478756048897","False","None","From ""REAGAN, CHAD A"" MoveTo ""First Horizons""","5","4334455478756048897","True",,"","",,,"","","""REAGAN, CHAD A"" [SMTP:CAReagan@firsthorizon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"First Horizons","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'KENNEDY, TERRI K'
+Take the following actions:
+	move the message to folder 'First Horizons'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4406513072793976833","False","None","From ""KENNEDY, TERRI K"" MoveTo ""First Horizons""","6","4406513072793976833","True",,"","",,,"","","""KENNEDY, TERRI K"" [SMTP:TKKennedy@firsthorizon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"First Horizons","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Mayes, Guy A'
+Take the following actions:
+	move the message to folder 'First Horizons'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4478570666831904769","False","None","From ""Mayes, Guy A"" MoveTo ""First Horizons""","7","4478570666831904769","True",,"","",,,"","","""Mayes, Guy A"" [SMTP:GAMayes@firsthorizon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"First Horizons","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Aafke Vonhof'
+Take the following actions:
+	move the message to folder 'Illumax'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4550628260869832705","False","None","From ""Aafke Vonhof"" MoveTo ""Illumax""","8","4550628260869832705","True",,"","",,,"","","""Aafke Vonhof"" [SMTP:a.vonhof@kaemingk.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Illumax","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Tommy Bos'
+Take the following actions:
+	move the message to folder 'C H Robinson'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4622685854907760641","False","None","From ""Tommy Bos"" MoveTo ""C H Robinson""","9","4622685854907760641","True",,"","",,,"","","""Tommy Bos"" [SMTP:Tommy.Bos@chrobinson.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"C H Robinson","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'DOBSON, KATHY'
+Take the following actions:
+	move the message to folder 'First Horizons'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4694743448945688577","False","None","From ""DOBSON, KATHY"" MoveTo ""First Horizons""","10","4694743448945688577","True",,"","",,,"","","""DOBSON, KATHY"" [SMTP:KDobson@firsthorizon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"First Horizons","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Heath, Lisa K'
+Take the following actions:
+	move the message to folder 'First Horizons'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4766801042983616513","False","None","From ""Heath, Lisa K"" MoveTo ""First Horizons""","11","4766801042983616513","True",,"","",,,"","","""Heath, Lisa K"" [SMTP:lkheath@firsthorizon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"First Horizons","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Accounting Today'
+Take the following actions:
+	move the message to folder 'Accounting Today'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4838858637021544449","False","None","From ""Accounting Today"" MoveTo ""Accounting Today""","12","4838858637021544449","True",,"","",,,"","","""Accounting Today"" [SMTP:events@d.arizent.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Accounting Today","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Diane Yetter | Sales Tax Institute'
+Take the following actions:
+	move the message to folder 'Sales Tax Institute'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4910916231059472385","False","None","From ""Diane Yetter | Sales Tax Institute"" MoveTo ""Sales Tax Institute""","13","4910916231059472385","True",,"","",,,"","","""Diane Yetter | Sales Tax Institute"" [SMTP:newsletter@salestaxinstitute.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Sales Tax Institute","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Accounting Today'
+Take the following actions:
+	move the message to folder 'Accounting Today'
+	and stop processing more rules on this message
+","True","Bryon Ownby\4982973825097400321","False","None","From ""Accounting Today"" MoveTo ""Accounting Today""","14","4982973825097400321","True",,"","",,,"","","""Accounting Today"" [SMTP:messages@newsletters.arizent.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Accounting Today","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'CFO & Controller Alert'
+Take the following actions:
+	move the message to folder 'CFO & Controller Alert'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5055031419135328257","False","None","From ""CFO & Controller Alert"" MoveTo ""CFO & Controller Alert""","15","5055031419135328257","True",,"","",,,"","","""CFO & Controller Alert"" [SMTP:CFO@CFOAndControllerAlert.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"CFO & Controller Alert","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Accounting Today'
+Take the following actions:
+	move the message to folder 'Accounting Today'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5127089013173256193","False","None","From ""Accounting Today"" MoveTo ""Accounting Today""","16","5127089013173256193","True",,"","",,,"","","""Accounting Today"" [SMTP:msgs@d.arizent.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Accounting Today","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Cybersource'
+Take the following actions:
+	move the message to folder 'CyberSource'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5199146607211184129","False","None","From ""Cybersource"" MoveTo ""CyberSource""","17","5199146607211184129","True",,"","",,,"","","""Cybersource"" [SMTP:solutions@cybersource.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"CyberSource","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Cybersource'
+Take the following actions:
+	move the message to folder 'CyberSource'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5271204201249112065","False","None","From ""Cybersource"" MoveTo ""CyberSource""","18","5271204201249112065","True",,"","",,,"","","""Cybersource"" [SMTP:Cybersource@express.medallia.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"CyberSource","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'noreply@statuspage.io'
+Take the following actions:
+	move the message to folder 'Credit Call'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5343261795287040001","False","None","From ""noreply@statuspage.io"" MoveTo ""Credit Call""","19","5343261795287040001","True",,"","",,,"","","""noreply@statuspage.io"" [SMTP:noreply@statuspage.io]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Credit Call","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'noreply=statuspage.io@notifications.statuspage.io'
+Take the following actions:
+	move the message to folder 'Credit Call'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5415319389324967937","False","None","From ""noreply=statuspage.io@notifications.statuspage.io"" MoveTo ""Credit Call""","20","5415319389324967937","True",,"","",,,"","","""noreply=statuspage.io@notifications.statuspage.io"" [SMTP:noreply=statuspage.io@notifications.statuspage.io]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Credit Call","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Ball, Karen'
+Take the following actions:
+	move the message to folder 'Deposits'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5487376983362895873","False","None","From ""Ball, Karen"" MoveTo ""Deposits""","21","5487376983362895873","True",,"","",,,"","","""Ball, Karen"" [SMTP:Karen.Ball@homefederaltn.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Deposits","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Cody Myers'
+Take the following actions:
+	move the message to folder 'Cody'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5559434577400823809","False","None","From ""Cody Myers"" MoveTo ""Cody""","22","5559434577400823809","True",,"","",,,"","","""Cody Myers"" [SMTP:Cody@christmasplace.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Cody","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Track1099 LLC'
+Take the following actions:
+	move the message to folder 'Track 1099'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5631492171438751745","False","None","From ""Track1099 LLC"" MoveTo ""Track 1099""","23","5631492171438751745","True",,"","",,,"","","""Track1099 LLC"" [SMTP:receipts+oH9QKLmQgzO9aGcVovs8b3oucP5VkBPi@stripe.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Track 1099","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Bowman, Michele'
+Take the following actions:
+	move the message to folder 'Loomis'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5703549765476679681","False","None","From ""Bowman, Michele"" MoveTo ""Loomis""","24","5703549765476679681","True",,"","",,,"","","""Bowman, Michele"" [SMTP:Michele.Bowman@us.loomis.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Loomis","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Collier, Jennifer'
+Take the following actions:
+	move the message to folder 'HFB'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5775607359514607617","False","None","From ""Collier, Jennifer"" MoveTo ""HFB""","25","5775607359514607617","True",,"","",,,"","","""Collier, Jennifer"" [SMTP:Jennifer.Collier@homefederaltn.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"HFB","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Loveday, Jodi'
+Take the following actions:
+	move the message to folder 'Deposits'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5847664953552535553","False","None","From ""Loveday, Jodi"" MoveTo ""Deposits""","26","5847664953552535553","True",,"","",,,"","","""Loveday, Jodi"" [SMTP:jodi.Loveday@homefederaltn.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Deposits","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Meghan Romano'
+Take the following actions:
+	move the message to folder 'C H Robinson'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5919722547590463489","False","None","From ""Meghan Romano"" MoveTo ""C H Robinson""","27","5919722547590463489","True",,"","",,,"","","""Meghan Romano"" [SMTP:Meghan.Romano@chrobinson.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"C H Robinson","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Luke Roberts'
+Take the following actions:
+	move the message to folder 'C H Robinson'
+	and stop processing more rules on this message
+","True","Bryon Ownby\5991780141628391425","False","None","From ""Luke Roberts"" MoveTo ""C H Robinson""","28","5991780141628391425","True",,"","",,,"","","""Luke Roberts"" [SMTP:Luke.Roberts@chrobinson.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"C H Robinson","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Kristin Hackett'
+Take the following actions:
+	move the message to folder 'SAIA'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6063837735666319361","False","None","From ""Kristin Hackett"" MoveTo ""SAIA""","29","6063837735666319361","True",,"","",,,"","","""Kristin Hackett"" [SMTP:khackett@linkex.us]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"SAIA","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Cole France'
+Take the following actions:
+	move the message to folder 'Steam Logistics'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6135895329704247297","False","None","From ""Cole France"" MoveTo ""Steam Logistics""","30","6135895329704247297","True",,"","",,,"","","""Cole France"" [SMTP:cole.france@steamlogistics.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Steam Logistics","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'MyDORWAY@dor.sc.gov'
+Take the following actions:
+	move the message to folder 'SC Department of Revenue'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6207952923742175233","False","None","From ""MyDORWAY@dor.sc.gov"" MoveTo ""SC Department of Revenue""","31","6207952923742175233","True",,"","",,,"","","""MyDORWAY@dor.sc.gov"" [SMTP:MyDORWAY@dor.sc.gov]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"SC Department of Revenue","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Ohio Business Gateway Auto Response'
+Take the following actions:
+	move the message to folder 'OH Department of Revenue'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6280010517780103169","False","None","From ""Ohio Business Gateway Auto Response"" MoveTo ""OH Department of Revenue""","32","6280010517780103169","True",,"","",,,"","","""Ohio Business Gateway Auto Response"" [SMTP:gateway_support@das.ohio.gov]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"OH Department of Revenue","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'e-Notices@floridarevenue.com'
+Take the following actions:
+	move the message to folder 'FL Department of Revenue'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6352068111818031105","False","None","From ""e-Notices@floridarevenue.com"" MoveTo ""FL Department of Revenue""","33","6352068111818031105","True",,"","",,,"","","""e-Notices@floridarevenue.com"" [SMTP:e-Notices@floridarevenue.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"FL Department of Revenue","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'NoReply@dor.ga.gov'
+Take the following actions:
+	move the message to folder 'GA Department of Revenue'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6424125705855959041","False","None","From ""NoReply@dor.ga.gov"" MoveTo ""GA Department of Revenue""","34","6424125705855959041","True",,"","",,,"","","""NoReply@dor.ga.gov"" [SMTP:NoReply@dor.ga.gov]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"GA Department of Revenue","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'TaxpayerService@revenue.alabama.gov'
+Take the following actions:
+	move the message to folder 'AL Department of Revenue'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6496183299893886977","False","None","From ""TaxpayerService@revenue.alabama.gov"" MoveTo ""AL Department of Revenue""","35","6496183299893886977","True",,"","",,,"","","""TaxpayerService@revenue.alabama.gov"" [SMTP:TaxpayerService@revenue.alabama.gov]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"AL Department of Revenue","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Stacie C. Buss'
+Take the following actions:
+	move the message to folder 'HUB'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6568240893931814913","False","None","From ""Stacie C. Buss"" MoveTo ""HUB""","36","6568240893931814913","True",,"","",,,"","","""Stacie C. Buss"" [SMTP:scbuss@fcbinc.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"HUB","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Revenue TNTAP'
+Take the following actions:
+	move the message to folder 'TN Dept Of Revenue Confrmations'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6640298487969742849","False","None","Revenue TNTAP","37","6640298487969742849","True",,"","",,,"","","""Revenue TNTAP"" [SMTP:NoReply_Revenue_TNTAP@TN.GOV]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"TN Dept Of Revenue Confrmations","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Tony West'
+Take the following actions:
+	move the message to folder 'Tony'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6712356082007670785","False","None","Tony West","38","6712356082007670785","True",,"","",,,"","","""Tony West"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9d1dfb5b670144bdb659463a2e7f10d6-Tony West]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Tony","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Adam Myers'
+Take the following actions:
+	move the message to folder 'Adam'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6784413676045598721","False","None","Adam Myers","39","6784413676045598721","True",,"","",,,"","","""Adam Myers"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=72ab34a644094b78bbf65c7516160139-adam]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Adam","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the sender's address contains these words: 'averittexpress.com'
+Take the following actions:
+	move the message to folder 'Averitt Express'
+","True","Bryon Ownby\6856471270083526657","False","None","averittexpress.com","40","6856471270083526657","True",,"","",,,"averittexpress.com","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Averitt Express","False",,"","False","False","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Charles Olinger'
+Take the following actions:
+	move the message to folder 'Charles Olinger'
+	and stop processing more rules on this message
+","True","Bryon Ownby\6928528864121454593","False","None","Charles Olinger","41","6928528864121454593","True",,"","",,,"","","""Charles Olinger"" [SMTP:cpolinger@boacpa.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Charles Olinger","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Gass, Patrick'
+Take the following actions:
+	move the message to folder 'HFB'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7000586458159382529","False","None","Gass, Patrick","42","7000586458159382529","True",,"","",,,"","","""Gass, Patrick"" [SMTP:Patrick.Gass@homefederaltn.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"HFB","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the sender's address contains these words: 'saia.com'
+Take the following actions:
+	move the message to folder 'SAIA'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7072644052197310465","False","None","saia.com","43","7072644052197310465","True",,"","",,,"saia.com","",,,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"SAIA","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'no-reply@elavon.com'
+Take the following actions:
+	move the message to folder 'Dispute Resolutions'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7144701646235238401","False","None","no-reply@elavon.com","44","7144701646235238401","True",,"","",,,"","","""no-reply@elavon.com"" [SMTP:no-reply@elavon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Dispute Resolutions","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from '#DisputeResolution'
+Take the following actions:
+	move the message to folder 'Dispute Resolutions'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7216759240273166337","False","None","#DisputeResolution","45","7216759240273166337","True",,"","",,,"","","""#DisputeResolution"" [SMTP:DisputeResolution@elavon.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Dispute Resolutions","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Candy Wang'
+Take the following actions:
+	move the message to folder 'Illumax'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7288816834311094273","False","None","Candy Wang","46","7288816834311094273","True",,"","",,,"","","""Candy Wang"" [SMTP:candy@illumax.com.hk]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Illumax","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'chris@illumax.com.hk'
+Take the following actions:
+	move the message to folder 'Illumax'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7360874428349022209","False","None","chris@illumax.com.hk","47","7360874428349022209","True",,"","",,,"","","""chris@illumax.com.hk"" [SMTP:chris@illumax.com.hk]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Illumax","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Mona'
+Take the following actions:
+	move the message to folder 'Mona'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7432932022386950145","False","None","Mona","48","7432932022386950145","True",,"","",,,"","","""Mona"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=defb850daf304a5da18da572f92bf12f-Mona]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Mona","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Jennifer Shuster'
+Take the following actions:
+	move the message to folder 'Averitt Express'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7504989616424878081","False","None","Jennifer Shuster","49","7504989616424878081","True",,"","",,,"","","""Jennifer Shuster"" [SMTP:jshuster@averittexpress.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Averitt Express","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Amanda Poynter'
+Take the following actions:
+	move the message to folder 'Averitt Express'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7577047210462806017","False","None","Amanda Poynter","50","7577047210462806017","True",,"","",,,"","","""Amanda Poynter"" [SMTP:apoynter@averittexpress.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Averitt Express","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Jennifer Williams'
+Take the following actions:
+	move the message to folder 'Jennifer W'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7649104804500733953","False","None","Jennifer Williams","51","7649104804500733953","True",,"","",,,"","","""Jennifer Williams"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=cb5df7c03f364d1ead9ee11160bcefcb-Jennifer]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Jennifer W","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Teresa Hughes'
+Take the following actions:
+	move the message to folder 'Teresa'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7721162398538661889","False","None","Teresa Hughes","52","7721162398538661889","True",,"","",,,"","","""Teresa Hughes"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=8550bb78c7804a938d0a86ea5dc2e849-thughes]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Teresa","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Karen Heath'
+Take the following actions:
+	move the message to folder 'Karen H'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7793219992576589825","False","None","Karen Heath (1)","53","7793219992576589825","True",,"","",,,"","","""Karen Heath"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9673d50fee8a488ebe0eefb5288f6156-KarenH]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Karen H","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Kristen Jackson'
+Take the following actions:
+	move the message to folder 'Kristen'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7865277586614517761","False","None","Kristen Jackson","54","7865277586614517761","True",,"","",,,"","","""Kristen Jackson"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=a8d2782db8df4a688a71749851751440-Kristen]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Kristen","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Shannon Goodwin'
+Take the following actions:
+	move the message to folder 'Shannon'
+	and stop processing more rules on this message
+","True","Bryon Ownby\7937335180652445697","False","None","Shannon Goodwin","55","7937335180652445697","True",,"","",,,"","","""Shannon Goodwin"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=709732f19ac34e3694337342372bbddc-Shannon]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Shannon","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Buss, Stacie C.'
+Take the following actions:
+	move the message to folder 'HUB'
+	and stop processing more rules on this message
+","True","Bryon Ownby\8009392774690373633","False","None","Buss, Stacie C.","56","8009392774690373633","True",,"","",,,"","","""Buss, Stacie C."" [SMTP:sbuss@hubank.com]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"HUB","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Whitney Hyduk'
+Take the following actions:
+	move the message to folder 'Whiteny'
+	and stop processing more rules on this message
+","True","Bryon Ownby\8081450368728301569","False","None","Whitney Hyduk","57","8081450368728301569","True",,"","",,,"","","""Whitney Hyduk"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=c4b8ad3adafc41b08e36b4be3b202af3-Whitney]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Whiteny","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Robert Tucker'
+Take the following actions:
+	move the message to folder 'Robert'
+	and stop processing more rules on this message
+","True","Bryon Ownby\8153507962766229505","False","None","Robert Tucker","58","8153507962766229505","True",,"","",,,"","","""Robert Tucker"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=447dd14290544338ae318b16641c1872-Robert Tuck]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Robert","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Robbie Watson'
+Take the following actions:
+	move the message to folder 'Robbie'
+	and stop processing more rules on this message
+","True","Bryon Ownby\8225565556804157441","False","None","Robbie Watson","59","8225565556804157441","True",,"","",,,"","","""Robbie Watson"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=efca9dccfffd4bf691ca35a2a51ae3c5-Robbie]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Robbie","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Karen Heath'
+Take the following actions:
+	move the message to folder 'Karen H'
+	and stop processing more rules on this message
+","True","Bryon Ownby\8297623150842085377","False","None","Karen Heath","60","8297623150842085377","True",,"","",,,"","","""Karen Heath"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9673d50fee8a488ebe0eefb5288f6156-KarenH]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Karen H","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'misty Dillard'
+Take the following actions:
+	move the message to folder 'Misty'
+	and stop processing more rules on this message
+","True","Bryon Ownby\8369680744880013313","False","None","misty Dillard","61","8369680744880013313","True",,"","",,,"","","""misty Dillard"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=39ce54c3e90f41829178c87b7a5d72a7-misty Dilla]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Misty","False",,"","False","True","Bryon Ownby","True","Unchanged"
+"If the message:
+	the message was received from 'Tanna Lowe'
+Take the following actions:
+	move the message to folder 'Tanna'
+	and stop processing more rules on this message
+","True","Bryon Ownby\8441738338917941249","False","None","Tanna Lowe","62","8441738338917941249","True",,"","",,,"","","""Tanna Lowe"" [EX:/o=ExchangeLabs/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=2c95a77d636349eeaaa7c191ad3ae7d3-Tanna]",,"False","False",,,"","",,,"False","False","False","False","False","False","False","False",,,,,"","","False","False",,,"","","","",,,,,,,,,"","",,"False","",,,"False",,"Tanna","False",,"","False","True","Bryon Ownby","True","Unchanged"

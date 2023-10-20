@@ -1,0 +1,4 @@
+New-ItemPropery -Path "HKLM:\Software\Microsoft\.NETFramework\v4.0.30319" -Name "SystemDefaultTlsVersions" -PropertyType DWord -Value 1
+New-ItemPropery -Path "HKLM:\Software\Wow6432Node\Microsoft\.NETFramework\v4.0.30319" -Name "SystemDefaultTlsVersions" -PropertyType DWord -Value 1
+New-ItemPropery -Path "HKLM:\Software\Microsoft\.NETFramework\v4.0.30319" -Name "SchUseStrongCrypto" -PropertyType DWord -Value 1
+New-ItemPropery -Path "HKLM:\Software\Wow6432Node\Microsoft\.NETFramework\v4.0.30319" -Name "SchUseStrongCrypto" -PropertyType DWord -Value 1

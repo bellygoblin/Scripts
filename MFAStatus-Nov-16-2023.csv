@@ -1,0 +1,3 @@
+"Name","Emailaddress","UserPrincipalName","isAdmin","MFA Status","Phone Authentication","Authenticator App","Passwordless","Hello for Business","FIDO2 Security Key","Temporary Access Pass","Authenticator device","Phone number","Email for SSPR"
+"Brian Mitchell","brian@mitchellfamily.me","brian@mitchellfamily.me","True","enabled","True","True","-","True","-","-","Envignus’s iPad Pro","mobile +1 8653873353","-"
+"Halee Mitchell","halee@mitchellfamily.me","halee@mitchellfamily.me","-","enabled","-","True","-","-","-","-","iPhone 13 mini","-","-"

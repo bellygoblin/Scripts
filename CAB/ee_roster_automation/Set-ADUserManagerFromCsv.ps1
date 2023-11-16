@@ -32,8 +32,13 @@ param (
 $Users = Import-Csv $FilePath
 
 foreach ($User in $Users) {
+  $PrimaryUPN = $user.UserPrincipalName
+  $ManagerUPN = $user.Manager
+  $ADUserAlias,$ADDomain = $PrimaryUPN -split "@"
+  $Manager,$ManagerDomain = $ManagerUPN -split "@"
   try {
-    $ADUser = Get-ADuser -Identity $User.email
+    $ADUser = Get-ADuser -Identity $ADUserAlias
+
   }
   
   catch {
@@ -44,7 +49,7 @@ foreach ($User in $Users) {
     }
     continue
   }
-  
-  Set-ADUser -Identity $User.UserPrincipalName -Manager $User.Manager
+
+  Set-ADUser -Identity $ADUser -Manager $Manager
 
 }

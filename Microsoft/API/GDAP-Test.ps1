@@ -7,7 +7,7 @@ function Get-AccessToken {
       [string]$clientSecret,
 
       [Parameter(Mandatory=$true)]
-      [string]$tenantID = "common", # Your tenantID
+      [string]$tenantID, # Your tenantID
 
       [Parameter(Mandatory=$true)]
       [string]$refreshToken, # Your refreshToken
@@ -34,7 +34,7 @@ function Get-AccessToken {
   return $response.access_token
 }
 
-$accessToken = Get-AccessToken -clientID "" -clientSecret "" -tenantID "" -refreshToken ""
+$accessToken = Get-AccessToken -clientID "a4bfd954-b3dd-48b3-87ab-1b36bc295b55" -clientSecret "QYr8Q~nveN_pVtfHLUM~0kkIsWC1V_o3mlNeGdai" -tenantID "3569e393-775f-4a5b-b5e4-5699cbc55b95" -refreshToken "0.ATYAk-NpNV93W0q15FaZy8VblVTZv6Tds7NIh6sbNrwpW1U2AOM.AgABAAEAAAAmoFfGtYxvRrNriQdPKIZ-AgDs_wUA9P-nU_b2DEiJr_ydmpSxLhjd-YW1t_5sdb1CG-r14mHIFHcjLrsoin3Sh0utnRKdha7x29WPEjbNnKrxEgATKf4ykso89rXjJg4zE4qKOptbCVHfOiteiXHKybqGI1pCHzLPfJCI9QW-2rRkdiIbMr5tMZLtWSgt5GdJoS6OXBy7FysJybNOgJ8KSFwb3uGweTkir36754ZyJvFN4f61n6EH1tize4f9-Fb4OCwQruJ0grDHDghsHVnEsI8W46iN_te9m3l4cD0EJKV_8DuBjSM8u2cmjdeVKZRx-5P8FM4ROVceZEuvZx1yDlhPPCcBucYHkvPnphtyDLBSZ2SrpcNpCyVkd_OM6T4Woq11hmhX5dSaU7bFskBcCPWgVaVuOMydmlFz7BPKXpVzofAB57ze-HcWJxcnUdnAXgd9JQliSPFSvoxs9dHKNbh6pA16wrms06LXYLjMEmChOt08_YWMMNcQt0ay2Kv6cd86mHSWf5dibrKeB5SrQNtSGnUNsUUtdpwSD4G6ypM8c2JK-B4cRpcli8J2-CoubOrBek1dYgIsn0aXvVil-oIp5rSaG9cfn-qNWgrMW1CiK4OHXIoFL7wIcSdDM5JC5RdyVcMwuYI3gC_BoQ3PpANxAU5N3OmnDcbrMwxjDKV_BhpFI8lv2vtHPfFQ1OW0utFqTpV8TzX9sbzy98FmT6jB2FdBkXwcsjVEKWJhOjGuZE9nc6V4dWnwPnveUuyfWqerqe7a2I748mxVOEhq8ZmPjYAt1P2AytcLhyYK49fQAl5imPtwmACT_eGzMnDIq_2v1JVuHNiq1Kx2BumqMbqHE85HA6nPXAjN"
 
 $uri = "https://api.partnercenter.microsoft.com/v1/customers"
 $headers = @{

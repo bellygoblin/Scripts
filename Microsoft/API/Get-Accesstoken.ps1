@@ -13,6 +13,7 @@ function Get-AccessToken {
       [string]$refreshToken, # Your refreshToken
 
       [string]$scope = "https://graph.microsoft.com/.default" # Default scope for Microsoft Graph
+      # [string]$scope = "https://api.partnercenter.microsoft.com/.default" # Default scope for Microsoft Partner Center
   )
 
   # Token endpoint
@@ -33,4 +34,3 @@ function Get-AccessToken {
   # Return the access token
   return $response.access_token
 }
-

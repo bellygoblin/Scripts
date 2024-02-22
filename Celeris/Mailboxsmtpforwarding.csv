@@ -1,9 +1,0 @@
-#TYPE Selected.System.Management.Automation.PSCustomObject
-"DisplayName","ForwardingAddress","ForwardingSmtpAddress","DeliverToMailboxAndForward"
-"Arely Guevara",,"smtp:Jennifer@christmasplace.com","False"
-"Belinda Smith",,"smtp:jenniferm@christmasplace.com","True"
-"Bryon Ownby",,"smtp:jenniferm@christmasplace.com","True"
-"Chris Bryson",,"smtp:karenh@christmasplace.com","True"
-"RFSadmin",,"smtp:russell@christmasplace.com","True"
-"Robbie Watson",,"smtp:bryon@christmasplace.com","False"
-"Victoria Smith",,"smtp:Jennifer@christmasplace.com","True"
